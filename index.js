@@ -101,7 +101,7 @@ client.on('messageCreate', async (message) => {
     await message.channel.sendTyping();
     let prevMessages = await message.channel.messages.fetch({ limit: 15 });
     prevMessages.reverse();
-    message.react("<:icons8chatgpt50:1230885642221654149>");
+    message.react("put-your-emoji-here");
     prevMessages.forEach((msg) => {
       if (msg.content.startsWith('!')) return;
       if (msg.author.id !== client.user.id && message.author.bot) return;
