@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "mafia",
   "license": "ISC",
   "dependencies": {
     "audit": "^0.0.6",
