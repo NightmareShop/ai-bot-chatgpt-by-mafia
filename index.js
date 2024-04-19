@@ -141,4 +141,6 @@ client.on('messageCreate', async (message) => {
   }
 });
 
+//======by mafai Nightmarre Studio============
+
 client.login(process.env.TOKEN);
